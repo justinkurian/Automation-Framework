@@ -1,6 +1,5 @@
-package com.scottishwater.pages;
+package com.sw.pages;
 
-import com.scottishwater.factory.DriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 

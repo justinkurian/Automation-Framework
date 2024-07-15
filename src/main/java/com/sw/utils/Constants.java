@@ -1,4 +1,4 @@
-package com.scottishwater.utils;
+package com.sw.utils;
 
 public class Constants {
 

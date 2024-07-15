@@ -1,7 +1,7 @@
 package appHooks;
 
-import com.scottishwater.factory.DriverFactory;
-import com.scottishwater.utils.ConfigReader;
+import com.sw.factory.DriverFactory;
+import com.sw.utils.ConfigReader;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -12,7 +12,7 @@ import org.openqa.selenium.WebDriver;
 
 import java.util.Properties;
 
-import static com.scottishwater.utils.Constants.ErrorMessage.SCREENSHOT_ERROR_MSG;
+import static com.sw.utils.Constants.ErrorMessage.SCREENSHOT_ERROR_MSG;
 
 @Slf4j
 public class ApplicationHooks {

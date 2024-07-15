@@ -1,8 +1,8 @@
 package stepdefenitions;
 
-import com.scottishwater.pages.LoginPage;
-import com.scottishwater.factory.DriverFactory;
-import com.scottishwater.utils.ConfigReader;
+import com.sw.pages.LoginPage;
+import com.sw.factory.DriverFactory;
+import com.sw.utils.ConfigReader;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

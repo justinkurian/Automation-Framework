@@ -1,4 +1,4 @@
-package com.scottishwater.utils;
+package com.sw.utils;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

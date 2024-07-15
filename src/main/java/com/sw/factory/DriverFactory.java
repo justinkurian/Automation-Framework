@@ -1,4 +1,4 @@
-package com.scottishwater.factory;
+package com.sw.factory;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import lombok.extern.slf4j.Slf4j;
@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
-import static com.scottishwater.utils.Constants.ApplicationConstants.BROWSER_WARN_MESSAGE;
+import static com.sw.utils.Constants.ApplicationConstants.BROWSER_WARN_MESSAGE;
 
 @Slf4j
 public class DriverFactory {
