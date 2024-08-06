@@ -4,14 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a374512-9e53-48c9-b1c8-6216ded48e66" name="Changes" comment="created sample framework for the project">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scottishwater/factory/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sw/factory/DriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scottishwater/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sw/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scottishwater/utils/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sw/utils/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scottishwater/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sw/utils/Constants.java" afterDir="false" />
+    <list default="true" id="7a374512-9e53-48c9-b1c8-6216ded48e66" name="Changes" comment="changed the name of the package to sw">
+      <change afterPath="$PROJECT_DIR$/reports/extent-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sw/extentReports/ExtentReportLog4jAppender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sw/pages/ActiveEventTrackerPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sw/pages/SummaryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sw/utils/DbUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sw/utils/utilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sw/factory/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sw/factory/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sw/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sw/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/appHooks/ApplicationHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appHooks/ApplicationHooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefenitions/LoginPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefenitions/LoginPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testrunners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testrunners/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/appFeatures/LoginPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/appFeatures/LoginPage.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/config.properties" afterDir="false" />
+    </list>
+    <list id="e004058e-4567-4696-84df-0d1604babd32" name="Changes by ragul" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sw/factory/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sw/factory/DriverFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,38 +41,163 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "justinkurian"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;justinkurian&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/justinkurian/Automation-Framework.git",
-    "accountId": "230059ca-c0bc-4b30-95e6-d7eba15f0f18"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/justinkurian/Automation-Framework.git&quot;,
+    &quot;accountId&quot;: &quot;230059ca-c0bc-4b30-95e6-d7eba15f0f18&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/pom.xml">
+      <ranges>
+        <range start1="49" end1="50" start2="49" end2="49" changelist="e004058e-4567-4696-84df-0d1604babd32" />
+        <range start1="85" end1="85" start2="84" end2="90" changelist="e004058e-4567-4696-84df-0d1604babd32" />
+        <range start1="86" end1="86" start2="91" end2="127" changelist="7a374512-9e53-48c9-b1c8-6216ded48e66" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/java/com/sw/factory/DriverFactory.java">
+      <ranges>
+        <range start1="2" end1="2" start2="2" end2="3" changelist="e004058e-4567-4696-84df-0d1604babd32" />
+        <range start1="3" end1="3" start2="4" end2="5" changelist="e004058e-4567-4696-84df-0d1604babd32" />
+        <range start1="6" end1="6" start2="8" end2="9" changelist="7a374512-9e53-48c9-b1c8-6216ded48e66" />
+        <range start1="7" end1="7" start2="10" end2="15" changelist="7a374512-9e53-48c9-b1c8-6216ded48e66" />
+        <range start1="14" end1="14" start2="22" end2="24" changelist="e004058e-4567-4696-84df-0d1604babd32" />
+        <range start1="19" end1="19" start2="29" end2="34" changelist="e004058e-4567-4696-84df-0d1604babd32" />
+        <range start1="29" end1="29" start2="44" end2="48" changelist="7a374512-9e53-48c9-b1c8-6216ded48e66" />
+        <range start1="31" end1="31" start2="50" end2="52" changelist="7a374512-9e53-48c9-b1c8-6216ded48e66" />
+        <range start1="40" end1="40" start2="61" end2="63" changelist="7a374512-9e53-48c9-b1c8-6216ded48e66" />
+      </ranges>
+    </file>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2jG83hi0IjBH5AGKRIu2c99ZGpU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.TestRunner.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/a710428/IdeaProjects/ScottishWaterWWIN/src/main/java/org/scottishwater/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Cucumber Java.Feature: LoginPage.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Connect to DB.executor&quot;: &quot;Debug&quot;,
+    &quot;Cucumber Java.Scenario: Login with correct scottish water credentials.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify active event tracker page.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify active tracker types.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify operational site count in summary page matches with site DB.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ScottishWaterWwin [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/a710428/IdeaProjects/ScottishWaterWWIN/src/main/java/org/scottishwater/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\a710428\IdeaProjects\ScottishWaterWWIN\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="Feature: LoginPage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/appFeatures/LoginPage.feature" />
+      <option name="GLUE" value="appHooks stepdefenitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ScottishWaterWWIN" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: LoginPage" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify active event tracker page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/appFeatures/LoginPage.feature" />
+      <option name="GLUE" value="appHooks stepdefenitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ScottishWaterWWIN" />
+      <option name="NAME_FILTER" value="^Verify active event tracker page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify active event tracker page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify active event tracker page" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify active tracker types" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/appFeatures/LoginPage.feature" />
+      <option name="GLUE" value="appHooks stepdefenitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ScottishWaterWWIN" />
+      <option name="NAME_FILTER" value="^Verify active tracker types$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify active tracker types$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify active tracker types" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify operational site count in summary page matches with site DB" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/appFeatures/LoginPage.feature" />
+      <option name="GLUE" value="appHooks stepdefenitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ScottishWaterWWIN" />
+      <option name="NAME_FILTER" value="^Verify operational site count in summary page matches with site DB$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify operational site count in summary page matches with site DB$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify operational site count in summary page matches with site DB" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="ScottishWaterWWIN" />
       <extension name="coverage">
         <pattern>
@@ -77,6 +215,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Verify active event tracker page" />
+        <item itemvalue="Cucumber Java.Feature: LoginPage" />
+        <item itemvalue="Cucumber Java.Scenario: Verify active tracker types" />
+        <item itemvalue="Cucumber Java.Scenario: Verify operational site count in summary page matches with site DB" />
       </list>
     </recent_temporary>
   </component>
@@ -97,12 +239,22 @@
       <option name="project" value="LOCAL" />
       <updated>1721037625738</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changed the name of the package to sw">
+      <option name="closed" value="true" />
+      <created>1721051745084</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721051745084</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="created sample framework for the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="created sample framework for the project" />
+    <MESSAGE value="changed the name of the package to sw" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed the name of the package to sw" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -112,7 +264,27 @@
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefenitions/LoginPageSteps.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/appHooks/ApplicationHooks.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/appHooks/ApplicationHooks.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ScottishWaterWWIN$TestRunner.ic" NAME="TestRunner Coverage Results" MODIFIED="1721945124897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>testrunners.*</FILTER>
+    </SUITE>
   </component>
 </project>

@@ -1,0 +1,12 @@
+<configuration>
+    <appender name="EXTENT" class="stepdefinitions.ExtentReportAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>DEBUG</level>
+        </filter>
+    </appender>
+
+    <root level="DEBUG">
+        <appender-ref ref="EXTENT" />
+        <appender-ref ref="STDOUT" />
+    </root>
+</configuration>

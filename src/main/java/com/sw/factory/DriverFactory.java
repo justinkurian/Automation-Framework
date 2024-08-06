@@ -4,7 +4,13 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import java.io.File;
+import java.time.Duration;
+import java.util.Properties;
 
 import static com.sw.utils.Constants.ApplicationConstants.BROWSER_WARN_MESSAGE;
 
@@ -27,8 +33,14 @@ public class DriverFactory {
         log.info("browser value is: {} opened as {}",browser,browser.equals(CHROME));
 
         if (browser.equals(CHROME)) {
+
+
+//
+
             WebDriverManager.chromedriver().setup();
             tlDriver.set(new ChromeDriver());
+
+
         } else if (browser.equals("edge")) {
             WebDriverManager.edgedriver().setup();
             tlDriver.set(new EdgeDriver());
@@ -38,6 +50,8 @@ public class DriverFactory {
 
         getDriver().manage().deleteAllCookies();
         getDriver().manage().window().maximize();
+        getDriver().manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
+        getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         return getDriver();
 
     }
