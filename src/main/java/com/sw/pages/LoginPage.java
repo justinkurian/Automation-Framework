@@ -32,11 +32,11 @@ public class LoginPage extends DriverFactory {
     public void doLogin() {
         getDriver().get(getProperties().getProperty("login_url"));
         WebElement emailElement = wait.until(ExpectedConditions.visibilityOfElementLocated(emailAddress));
-        //getDriver()findElement(emailAddress).sendKeys("kurianju@scottishwater.co.uk");
+
         getDriver().findElement(emailAddress).sendKeys(getProperties().getProperty("user_name"));
         getDriver().findElement(powerBiSubmitButton).click();
         WebElement passwordElement = wait.until(ExpectedConditions.visibilityOfElementLocated(password));
-        //getDriver()findElement(password).sendKeys("BarcelonaMessi10*");
+
         getDriver().findElement(password).sendKeys(getProperties().getProperty("password"));
         getDriver().findElement(signinButton).click();
         WebElement yesElement = wait.until(ExpectedConditions.elementToBeClickable(yesButton));
