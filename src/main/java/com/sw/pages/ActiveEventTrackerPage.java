@@ -33,9 +33,9 @@ public class ActiveEventTrackerPage extends DriverFactory {
     private final By siteInterventionImage = By.xpath("//*[contains(@aria-label, 'ActiveEventSiteIntervention')]");
     private final By suppressedImage = By.xpath("//*[contains(@aria-label, 'EventSuppressed')]");
     private final By alarmCountInfo = By.xpath("//*[contains(@aria-label, 'Active Alarms 8')]");
-    private final By alertCountInfo = By.xpath("//*[contains(@aria-label, 'Active Alerts 5')]");
-    private final By notificationCountInfo = By.xpath("//*[contains(@aria-label, 'Active Notification 6.')]");
-    private final By infoCountInfo = By.xpath("//*[contains(@aria-label, 'Active Event Info 3.')]");
+    private final By alertCountInfo = By.xpath("//*[contains(@aria-label, 'Active Alerts 4')]");
+    private final By notificationCountInfo = By.xpath("//*[contains(@aria-label, 'Active Notification 5.')]");
+    private final By infoCountInfo = By.xpath("//*[contains(@aria-label, 'Active Event Info 2.')]");
 
     public void selectActiveEventTracker() {
 

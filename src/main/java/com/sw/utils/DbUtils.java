@@ -22,7 +22,7 @@ public class DbUtils {
 
     // JDBC URL, username, and password for Azure SQL Database
     private static final String DRIVER_CLASS = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
-    private static final String DB_URL = "jdbc:sqlserver://sqlsrv-wwin-tst-001.database.windows.net:1433;database=sqldb-wwin-tst-002;user={KURIANJU@scottishwater.co.uk};password={BarcelonaMessi10*};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;authentication=ActiveDirectoryPassword";
+    private static final String DB_URL = "";
 
 
     public static List<Map<String,Object>> getValueFromDB(String query, String...columns){
